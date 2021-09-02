@@ -1,0 +1,118 @@
+/* here is the card inside */
+.container{
+    /* display */
+    width:100%;
+    padding:50px;
+}
+
+/* holds the card-image and the card-text */
+.card{
+    /* display */
+    max-width:280px;
+    margin:0 auto;
+    padding:7px;
+    border-radius: 10px;
+    
+    /* color */
+    background-color: white;
+}
+
+.card-image{
+    /* style */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.644);
+
+    /* animation */
+    transition: all 300ms ease-in-out ;
+}
+
+/* image animation on hover */
+.card-image:hover{
+    /* style */
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.6);
+
+    /* animation */
+    transition: all 100ms  ease-in-out ;
+    transform-origin: bottom left;  
+    transform:  rotate(-3deg) ;
+}
+
+.card-container-image{
+    /* display */
+    display: flex;
+    align-items: center;
+    height:240px;
+
+    /* color */
+    background-color: #F5DBE2;
+}
+
+.card-logo{
+    /* center logo */
+    margin: 0 auto; 
+    max-width:160px; 
+}
+
+.div-button{
+    /* display */
+    padding:15px;
+
+    /* text */
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+
+    /* color */
+    color:white;
+    background-color: #D83B5D;
+}
+
+.card-text{
+    padding:13px;
+}
+
+.card-text-miniheadline{
+    /* text */
+    text-transform: uppercase;
+    font-size: 1rem;
+
+    /* color */
+    color:#2B9CCE;
+}
+
+.card-paragraph{
+    /* text */
+    font-family:  Geneva, Tahoma, sans-serif;
+    line-height: 1.7;
+}
+
+.card-paragraph:hover{
+    /* color */
+    color:gray;
+}
+
+
+/* ================================= Reset */
+
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap');
+
+:root {
+  font-size: 62.5%;
+  font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #262626;
+}
+
+img{
+    width:100%;
+}
+/* ================================= Reset Ende */
